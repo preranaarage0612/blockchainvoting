@@ -50842,7 +50842,7 @@ function App() {
     sendVote: sendVoteToReg,
     signedIn: window.walletConnection.isSignedIn(),
     Name: "Leslie",
-    Overview: /*#__PURE__*/_react.default.createElement("p", null, "Narendra Modi, BJP"),
+    Overview: /*#__PURE__*/_react.default.createElement("p", null, "Rahul Gandhi, INC"),
     picture: _knope.default,
     getTotal: getVotes
   })), /*#__PURE__*/_react.default.createElement("div", {
@@ -50856,7 +50856,7 @@ function App() {
     sendVote: sendVoteToReg,
     signedIn: window.walletConnection.isSignedIn(),
     Name: "Ron",
-    Overview: /*#__PURE__*/_react.default.createElement("p", null, "Rahul Gandhi, INC"),
+    Overview: /*#__PURE__*/_react.default.createElement("p", null, "Narendra Modi"),
     picture: _Ron.default,
     getTotal: getVotes
   }))));
