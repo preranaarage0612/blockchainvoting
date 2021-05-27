@@ -50344,15 +50344,14 @@ exports.keyStores = __importStar(require("./key_stores/browser-index"));
 __exportStar(require("./common-index"), exports);
 
 },{"./key_stores/browser-index":"../node_modules/near-api-js/lib/key_stores/browser-index.js","./common-index":"../node_modules/near-api-js/lib/common-index.js"}],"config.js":[function(require,module,exports) {
-const CONTRACT_NAME = "dev-1622112474049-6887379" || 'voting';
-console.log(CONTRACT_NAME);
+const CONTRACT_NAME = 'voting';
 
 function getConfig(env) {
   switch (env) {
     case 'production':
     case 'mainnet':
       return {
-        networkId: 'mainnet',
+        networkId: 'testnet',
         nodeUrl: 'https://rpc.testnet.near.org',
         contractName: CONTRACT_NAME,
         walletUrl: 'https://wallet.testnet.near.org',
