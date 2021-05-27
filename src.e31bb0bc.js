@@ -50432,7 +50432,7 @@ var _regeneratorRuntime = require("regenerator-runtime");
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-const nearConfig = (0, _config.default)("development" || 'development'); // Initialize contract & set global variables
+const nearConfig = (0, _config.default)("development" || 'production'); // Initialize contract & set global variables
 
 async function initContract() {
   // Initialize connection to the NEAR testnet
