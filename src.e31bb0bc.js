@@ -50349,7 +50349,7 @@ const CONTRACT_NAME = "dev-1622112474049-6887379" || 'voting';
 function getConfig(env) {
   switch (env) {
     case 'production':
-    case 'mainnet':
+    case 'testnet':
       return {
         networkId: 'testnet',
         nodeUrl: 'https://rpc.testnet.near.org',
