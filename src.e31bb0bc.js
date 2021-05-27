@@ -50856,7 +50856,7 @@ function App() {
     sendVote: sendVoteToReg,
     signedIn: window.walletConnection.isSignedIn(),
     Name: "Ron",
-    Overview: /*#__PURE__*/_react.default.createElement("p", null, "Narendra Modi"),
+    Overview: /*#__PURE__*/_react.default.createElement("p", null, "Narendra Modi, BJP"),
     picture: _Ron.default,
     getTotal: getVotes
   }))));
