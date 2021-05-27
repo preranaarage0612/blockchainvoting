@@ -50724,7 +50724,7 @@ exports.default = _default;
 },{"react":"../node_modules/react/index.js","./Navbar.css":"Components/Navbar/Navbar.css","./../../assets/account.png":"assets/account.png","./../../utils":"utils.js"}],"assets/knope.jpeg":[function(require,module,exports) {
 module.exports = "/knope.863cc3e5.jpeg";
 },{}],"assets/Ron.jpg":[function(require,module,exports) {
-module.exports = "/Ron.f8334cfa.jpg";
+module.exports = "/838ffe83104025aeaa6b70bbf8334cfa.jpg";
 },{}],"App.js":[function(require,module,exports) {
 "use strict";
 
@@ -50842,7 +50842,7 @@ function App() {
     sendVote: sendVoteToReg,
     signedIn: window.walletConnection.isSignedIn(),
     Name: "Leslie",
-    Overview: /*#__PURE__*/_react.default.createElement("p", null, "Waffles Forever"),
+    Overview: /*#__PURE__*/_react.default.createElement("p", null, "Narendra Modi, BJP"),
     picture: _knope.default,
     getTotal: getVotes
   })), /*#__PURE__*/_react.default.createElement("div", {
@@ -50856,7 +50856,7 @@ function App() {
     sendVote: sendVoteToReg,
     signedIn: window.walletConnection.isSignedIn(),
     Name: "Ron",
-    Overview: /*#__PURE__*/_react.default.createElement("p", null, "Undermine the Government"),
+    Overview: /*#__PURE__*/_react.default.createElement("p", null, "Rahul Gandhi, INC"),
     picture: _Ron.default,
     getTotal: getVotes
   }))));
