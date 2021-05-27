@@ -50345,7 +50345,7 @@ __exportStar(require("./common-index"), exports);
 
 },{"./key_stores/browser-index":"../node_modules/near-api-js/lib/key_stores/browser-index.js","./common-index":"../node_modules/near-api-js/lib/common-index.js"}],"config.js":[function(require,module,exports) {
 const CONTRACT_NAME = "dev-1622112474049-6887379" || 'voting';
-console.log(env);
+console.log(getConfig(env));
 
 function getConfig(env) {
   switch (env) {
